@@ -1,0 +1,386 @@
+@media(max-width: 991px) {
+
+    header,
+    footer,
+    section {
+        overflow-x: hidden;
+    }
+
+    .header,
+    .menu,
+    .banner .container {
+        padding: 0;
+    }
+
+    .header__list,
+    .header__contact,
+    .header__registration {
+        display: none;
+    }
+
+
+    .header {
+        margin: 10px 0px;
+        justify-content: center;
+    }
+
+    .header .container {
+        justify-content: center;
+    }
+
+    .header__logo {
+        margin: 0px 81px 0px 112px;
+    }
+
+    .header__burger-wrapper {
+        display: flex;
+    }
+
+    .header__burger-wrapper button {
+        background-color: white;
+    }
+
+    .menu {
+        margin-top: 0;
+        height: 48px;
+    }
+
+    .menu .container {
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+
+    .menu__catalog {
+        margin-right: 0px;
+    }
+
+    .menu__catalog button {
+        height: 48px;
+        border-radius: 0;
+    }
+
+    .menu__catalog button img {
+        margin: 16px 16px 17px 13px;
+    }
+
+    .menu__catalog span {
+        display: none;
+    }
+
+    .menu__catalog span:last-child {
+        display: flex;
+        margin-right: 29px;
+    }
+
+    .menu__catalog_mobile-span {
+        display: flex;
+    }
+
+    .menu__icon img {
+        width: 16px;
+        height: auto;
+        margin-right: 13px;
+    }
+
+    .menu__search {
+        display: none;
+    }
+
+    .banner {
+        margin-top: -1px;
+    }
+
+    .menu_icon img {
+        width: 16px;
+        margin-right: 13px;
+    }
+
+    .menu__price {
+        display: none;
+    }
+
+    .banner .swiper {
+        display: none;
+    }
+
+    .banner__mobile {
+        display: flex;
+        width: 100%;
+    }
+
+    .categories_product h2 {
+        margin-top: 31px;
+        margin-bottom: 0px;
+    }
+
+    .categories_product.product {
+        margin-top: 0px;
+    }
+
+    .categories_product .product__item {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .categories_product_buttom {
+        margin-top: 17px;
+    }
+
+    .categories_product_buttom button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact__text {
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .contact__order {
+        margin-top: 29px;
+        justify-content: center;
+    }
+
+    .contact__order_img {
+        transform: rotate(90deg);
+    }
+
+    .contact_order_input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contact_order_input:last-child {
+        margin-bottom: 18px;
+    }
+
+    .contact_order_input input {
+        width: 100%;
+    }
+
+    .contact__order_send {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contact__order_send button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .swiper__mobile {
+        display: block;
+    }
+
+    .product__new .row {
+        display: none;
+    }
+
+    .brend .col-lg-2:not(:nth-child(1)) {
+        display: none;
+    }
+
+    .brend .brend__box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brend .brend__box_text {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .brend .brend__box p:not(:first-child) {
+        display: flex;
+    }
+
+    .brend .brend__box_list {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .brend .brend__box ul {
+        margin-left: 0px;
+    }
+
+    .brend .brend__box li:last-child a {
+        border-bottom: none;
+    }
+
+    .brend .brend__box li:last-child a:hover {
+        border-bottom: 2px dashed rgba(53, 135, 230, 1)
+    }
+
+    .brend_buttom button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 40px
+    }
+
+    .company {
+        margin-top: 20px;
+    }
+
+    .company .company__text {
+        margin-top: 12px;
+    }
+
+    .company .company__text h3 {
+        margin-bottom: 20px;
+    }
+
+    .map__adress {
+        position: unset;
+        padding: 18px 35px;
+        font-size: 14px;
+        color: rgba(37, 51, 64, 1);
+    }
+
+    .map__info {
+        position: unset;
+        margin-top: 10px;
+    }
+
+    .map__info img {
+        display: none;
+    }
+
+    .map #map {
+        height: auto;
+    }
+
+    .map #mobile-map {
+        display: block;
+        width: 100%;
+        height: 165px;
+    }
+
+    .subscription {
+        position: relative;
+    }
+
+    .subcription__logo {
+        position: absolute;
+        right: -40px;
+        top: 35px;
+        width: 121px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .subcription__logo img {
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+        opacity: 0.33;
+    }
+
+    .subscription .subscription__text {
+        margin-top: 30px;
+    }
+
+    .subscription .subscription__text p br {
+        display: none;
+    }
+
+    .subcription__input {
+        margin-top: 27px;
+        margin-bottom: 30px;
+    }
+
+    .subcription__button {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .subcription__input input {
+        height: 40px;
+        width: 100%;
+    }
+
+    .subcription__button button {
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+    }
+
+    .subcription__button button span:first-child {
+        display: none;
+    }
+
+    .subcription__button button span:last-child {
+        display: block;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+
+    .footer__contact {
+        margin: 30px 0px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid rgba(196, 196, 196, 1);
+    }
+
+    .footer__list ul {
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footer__list ul:last-child {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .footer img {
+        display: none;
+    }
+
+    footer .rules {
+        margin: 0px;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rules {
+        padding-bottom: 0px;
+    }
+
+    .rules a {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .rules p {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .rules br {
+        display: block;
+      }
+
+    .rules img {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+}

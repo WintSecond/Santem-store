@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap_5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#"><img class="header__logo" src="img/logo.svg"></a>
+            <div class="header__burger-wrapper">
+                <button class="header__burger">
+                    <img src="img/burger.svg" alt="Меню">
+                </button>
+            </div>
+            <div class="header__list">
+                <ul>
+                    <li><a href="#">Оплата и доставка</a></li>
+                    <li><a href="#">Гарантия и возврат</a></li>
+                </ul>
+            </div>
+            <div class="header__contact">
+                <div class="header__contact_item">
+                    <img src="img/logo_phone.svg">
+                    <p>Перезвоните мне</p>
+                </div>
+                <a href="tel:+7(8202)737-738">+7 (8202) 737-738</a>
+            </div>
+            <div class="header__registration">
+                <img src="img/icon_user.svg">
+                <a href="#">Вход</a>
+                <p>|</p>
+                <a href="#">Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu__catalog">
+                <button type="button">
+                    <img src="img/menu_catalog.svg">
+                    <span>Каталог товаров</span>
+                    <span class="menu__catalog_mobile-span">Каталог</span>
+                </button>
+            </div>
+            <div class="menu__search">
+                <form action="" class="menu__search_form">
+                    <input type="search" name="search" placeholder="Название или код товара">
+                    <button type="submit"><img src="img/menu_search-icon.svg" alt=""></button>
+                </form>
+            </div>
+            <div class="menu__icon">
+                <a href="#"><img src="img/menu_heat.svg"></a>
+                <a href="#"><img src="img/menu_compare.svg"></a>
+                <a href="#"><img src="img/menu_trash.svg"></a>
+            </div>
+            <div class="menu__price">
+                <div class="menu__price_text">
+                    <a href="#">Корзина</a>
+                    <a href="#">16 300 ₽</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <div class="swiper swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/swiper.png"></div>
+                    <div class="swiper-slide"><img src="img/swiper.png"></div>
+                    <div class="swiper-slide"><img src="img/swiper.png"></div>
+                    <div class="swiper-slide"><img src="img/swiper.png"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <img class="banner__mobile" src="img/banner__mobile.svg">
+        </div>
+    </section>
+
+    <section class="categories_product">
+        <div class="container">
+            <h2>Категории товаров</h2>
+            <div class="categories_product product">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Вентиляционные системы</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/ventilation.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Ванны</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/bath.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>КИП приборы</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/counter.svg">
+                        </button>
+                    </div>
+                    <div class="col-lg-4">
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Смесители</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/tap.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Душевые системы</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/shower.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Фитинги</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/fittings.svg">
+                        </button>
+                    </div>
+                    <div class="col-lg-4">
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Унитазы</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/toilet.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Аксессуары для ванной комнаты</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/closet.svg">
+                        </button>
+                        <button class="product__item">
+                            <div class="product__item_text">
+                                <h3>Канализационные системы</h3>
+                                <p>2166 товаров</p>
+                            </div>
+                            <img src="img/pipes.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="categories_product_buttom">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <form>
+                            <button>
+                                <span>Все категории</span>
+                                <svg class="next_svg" width="13" height="12" viewBox="0 0 63 59" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.90682e-08 49.8461L24.2308 29.0769L5.94409e-07 8.30769L4.84615 -7.5716e-06L38.7692 29.0769L4.84615 58.1538L9.90682e-08 49.8461Z"
+                                        fill="#3587E6" />
+                                    <path
+                                        d="M24.2307 49.8461L48.4615 29.0769L24.2307 8.30769L29.0769 -7.5716e-06L62.9999 29.0769L29.0769 58.1538L24.2307 49.8461Z"
+                                        fill="#3587E6" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact__text">
+                        <h3>Нуждаетесь в сантехническом оборудовании?
+                            <br><span>Закажите профессиональный подбор</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="contact__order">
+                        <div class="contact__order_img">
+                            <img src="img/next.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact_order_input name">
+                        <p>Ваше имя</p>
+                        <input type="text" placeholder="Например Виталий">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact_order_input telephone">
+                        <p>Введите ваш телефон</p>
+                        <input type="tel" placeholder="+ 7 ( ___ ) ___-__-__">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact__order_send">
+                        <button>
+                            <span>Отправить запрос</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product__new">
+        <div class="container">
+            <h2>Новинки</h2>
+            <div class="swiper__mobile">
+                <div class="swiper swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__header">
+                                    <div class="card__head text">
+                                        <a href="#">Frap</a>
+                                    </div>
+                                    <div class="card__icon">
+                                        <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                                <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                                <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                                    fill="#8B98A7" />
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="like"><svg width="18" height="16"
+                                                viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                                    fill="#8B98A7" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <a href="#"><img src="img/card_product.png"></a>
+                                </div>
+                                <div class="card__text">
+                                    <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                                </div>
+                                <div class="card__code">
+                                    <p>Код 546829</p>
+                                </div>
+                                <div class="card__footer">
+                                    <p>210 ₽</p>
+                                    <div class="card__input">
+                                        <button type="button" class="minus">-</button>
+                                        <input type="number" value="1">
+                                        <button type="button" class="plus">+</button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__header">
+                                    <div class="card__head text">
+                                        <a href="#">Frap</a>
+                                    </div>
+                                    <div class="card__icon">
+                                        <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                                <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                                <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                                    fill="#8B98A7" />
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="like"><svg width="18" height="16"
+                                                viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                                    fill="#8B98A7" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <a href="#"><img src="img/card_product.png"></a>
+                                </div>
+                                <div class="card__text">
+                                    <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                                </div>
+                                <div class="card__code">
+                                    <p>Код 546830</p>
+                                </div>
+                                <div class="card__footer">
+                                    <p>210 ₽</p>
+                                    <div class="card__input">
+                                        <button type="button" class="minus">-</button>
+                                        <input type="number" value="1">
+                                        <button type="button" class="plus">+</button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__header">
+                                    <div class="card__head text">
+                                        <a href="#">Frap</a>
+                                    </div>
+                                    <div class="card__icon">
+                                        <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                                <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                                <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                                    fill="#8B98A7" />
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="like"><svg width="18" height="16"
+                                                viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                                    fill="#8B98A7" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <a href="#"><img src="img/card_product.png"></a>
+                                </div>
+                                <div class="card__text">
+                                    <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                                </div>
+                                <div class="card__code">
+                                    <p>Код 546831</p>
+                                </div>
+                                <div class="card__footer">
+                                    <p>210 ₽</p>
+                                    <div class="card__input">
+                                        <button type="button" class="minus">-</button>
+                                        <input type="number" value="1">
+                                        <button type="button" class="plus">+</button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__header">
+                                    <div class="card__head text">
+                                        <a href="#">Frap</a>
+                                    </div>
+                                    <div class="card__icon">
+                                        <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                                <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                                <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                                    fill="#8B98A7" />
+                                            </svg>
+                                        </button>
+                                        <button type="button" class="like"><svg width="18" height="16"
+                                                viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                                    fill="#8B98A7" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <a href="#"><img src="img/card_product.png"></a>
+                                </div>
+                                <div class="card__text">
+                                    <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                                </div>
+                                <div class="card__code">
+                                    <p>Код 546832</p>
+                                </div>
+                                <div class="card__footer">
+                                    <p>210 ₽</p>
+                                    <div class="card__input">
+                                        <button type="button" class="minus">-</button>
+                                        <input type="number" value="1">
+                                        <button type="button" class="plus">+</button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="swiper__mobile_buttom">
+                    <form>
+                        <button>
+                            <span>Все Новинки</span>
+                            <svg class="next_svg" width="13" height="12" viewBox="0 0 63 59" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.90682e-08 49.8461L24.2308 29.0769L5.94409e-07 8.30769L4.84615 -7.5716e-06L38.7692 29.0769L4.84615 58.1538L9.90682e-08 49.8461Z"
+                                    fill="#3587E6" />
+                                <path
+                                    d="M24.2307 49.8461L48.4615 29.0769L24.2307 8.30769L29.0769 -7.5716e-06L62.9999 29.0769L29.0769 58.1538L24.2307 49.8461Z"
+                                    fill="#3587E6" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" data-id="546833">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546833</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546834">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546834</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546835">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546835</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546836">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546836</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546837">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546837</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546838">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546838</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546839">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546839</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" data-id="546840">
+                        <div class="card__header">
+                            <div class="card__head text">
+                                <a href="#">Frap</a>
+                            </div>
+                            <div class="card__icon">
+                                <button><svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L10 -8.74228e-08L12 0L12 16L10 16Z" fill="#8B98A7" />
+                                        <path d="M5 16L5 3L7 3L7 16L5 16Z" fill="#8B98A7" />
+                                        <path d="M5.16482e-08 16L3.57628e-07 8L2 8L2 16L5.16482e-08 16Z"
+                                            fill="#8B98A7" />
+                                    </svg>
+                                </button>
+                                <button type="button" class="like"><svg width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.5645 3.27888C17.2852 2.63724 16.8825 2.0558 16.379 1.56709C15.875 1.07693 15.2808 0.6874 14.6288 0.419693C13.9526 0.140996 13.2274 -0.0016576 12.4952 1.45314e-05C11.468 1.45314e-05 10.4658 0.279111 9.59485 0.806293C9.38649 0.932404 9.18855 1.07092 9.00103 1.22184C8.81351 1.07092 8.61557 0.932404 8.40721 0.806293C7.53628 0.279111 6.53408 1.45314e-05 5.50688 1.45314e-05C4.76721 1.45314e-05 4.05046 0.140597 3.3733 0.419693C2.71906 0.688453 2.12941 1.07505 1.6231 1.56709C1.11887 2.05524 0.716078 2.63683 0.43755 3.27888C0.147934 3.94665 0 4.65576 0 5.38554C0 6.07398 0.141683 6.79136 0.422965 7.52115C0.658409 8.13103 0.995947 8.76365 1.42725 9.40247C2.11066 10.4134 3.05035 11.4678 4.21715 12.5366C6.1507 14.3084 8.06551 15.5323 8.14677 15.5819L8.64057 15.8961C8.85935 16.0346 9.14063 16.0346 9.35941 15.8961L9.85321 15.5819C9.93447 15.5302 11.8472 14.3084 13.7828 12.5366C14.9496 11.4678 15.8893 10.4134 16.5727 9.40247C17.004 8.76365 17.3437 8.13103 17.577 7.52115C17.8583 6.79136 18 6.07398 18 5.38554C18.0021 4.65576 17.8541 3.94665 17.5645 3.27888Z"
+                                            fill="#8B98A7" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <a href="#"><img src="img/card_product.png"></a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">Кран угловой <br>шаровой 1/2'' - 3/4'' <br>нар/нар</a>
+                        </div>
+                        <div class="card__code">
+                            <p>Код 546840</p>
+                        </div>
+                        <div class="card__footer">
+                            <p>210 ₽</p>
+                            <div class="card__input">
+                                <button type="button" class="minus">-</button>
+                                <input type="number" value="1">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                            <button type="button" class="card__order"><img src="img/card_trash.svg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brend">
+        <div class="container">
+            <h2>Бренды производителей</h2>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <div class="brend__box_text">
+                            <p>A</p>
+                            <p>B</p>
+                            <p>C</p>
+                            <p>D</p>
+                            <p>E</p>
+                            <p>F</p>
+                        </div>
+                        <div class="brend__box_list">
+                            <ul>
+                                <li><a href="#">Akvater</a></li>
+                                <li><a href="#">Alcaplast</a></li>
+                                <li><a href="#">Andrea</a></li>
+                                <li><a href="#">Еще</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brend__box">
+                        <p>A</p>
+                        <ul>
+                            <li><a href="#">Akvater</a></li>
+                            <li><a href="#">Alcaplast</a></li>
+                            <li><a href="#">Andrea</a></li>
+                            <li><a href="#">Еще</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brend_buttom">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <form>
+                            <button>
+                                <span>Все бренды</span>
+                                <svg class="next_svg" width="13" height="12" viewBox="0 0 63 59" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.90682e-08 49.8461L24.2308 29.0769L5.94409e-07 8.30769L4.84615 -7.5716e-06L38.7692 29.0769L4.84615 58.1538L9.90682e-08 49.8461Z"
+                                        fill="#3587E6" />
+                                    <path
+                                        d="M24.2307 49.8461L48.4615 29.0769L24.2307 8.30769L29.0769 -7.5716e-06L62.9999 29.0769L29.0769 58.1538L24.2307 49.8461Z"
+                                        fill="#3587E6" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="company">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="img/company.jpg">
+                </div>
+                <div class="col-lg-7">
+                    <div class="company__text">
+
+                        <h3>О компании</h3>
+                        <p>Наша компания занимается оптовой и розничной продажей бытовой и инженерной сантехники, а
+                            также
+                            комплексными поставками оборудования для систем отопления, тепло-, водоснабжения,
+                            канализации,
+                            производит проектирование, монтаж, строительство, ввод в эксплуатацию и обслуживание
+                            теплоэнергетических
+                            объектов.</p>
+
+                        <p>Мы предоставляем клиентам полный комплекс товаров и услуг для инженерных систем жилых,
+                            административных и
+                            промышленных зданий. </p>
+
+                        <p><span>Инженерное оборудование:</span> теплообменники, теплосчетчики, насосы и насосные
+                            станции,
+                            котлы,
+                            тепловая автоматика.</p>
+
+                        <p><span>Бытовая сантехника:</span> смесители, ванны, мойки, радиаторы, трубы и фитинги, душевые
+                            кабины
+                            и
+                            др.</p>
+
+                        <p>Продажа крепежа, электрики и инструмента. Комплексно поставляем оборудование для систем
+                            тепло-
+                            водоснабжения и канализации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <div id="map">
+                <div class="map__adress">
+                    <p>г. Череповец, ул. Ленина, д. 116</p>
+                </div>
+                <div class="map__info">
+                    <p>г. Череповец, Пр-т Победы, д. 9<br>(белый павильон напротив ЧГУ)</p>
+                    <a href="tel:+7 (8202) 737-738">+7 (8202) 737-738 (доб.1)</a>
+                    <a href="mailto:nina@santem35.ru">nina@santem35.ru</a>
+                    <p>Режим работы:</p>
+                    <p>будни 09:00 -19:00,<br>выходные 09:00 -18:00</p>
+                    <img src="img/map_object.png" alt="">
+                    <div id="mobile-map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscription">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="subcription__logo">
+                        <img src="img/mail.svg">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="subscription__text">
+                        <h3>ПОДПИСАТЬСЯ НА РАССЫЛКУ</h3>
+                        <p>Будьте в курсе всех новинок<br> и распродаж</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="subcription__input">
+                        <p>Введите ваш e-mail</p>
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="subcription__button">
+                        <button>
+                            <span>Подписаться</span>
+                            <span>Отправить запрос</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="#"><img src="img/logo.svg"></a>
+                <div class="footer__list">
+                    <ul>
+                        <li><a href="#">Оплата и доставка</a></li>
+                        <li><a href="#">Гарантия и возврат</a></li>
+                        <li><a href="#">Каталог товаров</a></li>
+                        <li><a href="#">Производители</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <a href="tel:+7 (8202) 737-738">+7 (8202) 737-738</a>
+                    <p>09:00 - 19:00 | ежедневно</p>
+                </div>
+            </div>
+            <div class="rules">
+                <a href="#"><img src="img/logo.svg"></a>
+                <p>© 2020 Сантэм. Все права защищены.</p>
+                <a href="#">Условия продажи и обработка <br>персональных данных</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
