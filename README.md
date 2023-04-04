@@ -1,1 +1,3 @@
 # Santem-store
+
+Main page
